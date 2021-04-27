@@ -12,10 +12,11 @@ header {
     padding: 20px;
     text-align: center;
     background-color: #F5F0ED;
+    color:#3D5361;
 }
 
 header img {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     border-radius: 50%;
     padding: 20px;
@@ -25,10 +26,102 @@ body {
     text-align: center;
 }
 
+#worked-on {
+    padding: 30px;
+}
+
+#worked-on h3 {
+    color: #3D5361;
+}
+
+#worked-on h4 {
+    color:#F5F0ED;
+    padding: 10px;
+}
+
+.project {
+    padding: 30px;
+}
+
+.text-box {
+    background:#3D5361;
+    color:#F5F0ED;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top:20px;
+    position: absolute;
+}
+
+.text-box a {
+    text-decoration: none;
+}
 
 #worked-on img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
+    opacity: .1;
+}
+
+.img-bg {
+    background:#F5F0ED;
+    border-radius: 20px; 
     border: 3px solid #D6B7B5;
 }
+
+#worked-on img:hover {
+    opacity: 100%;
+}
+
+#contact {
+    background-color: #3D5361;
+    color: #F5F0ED;
+    padding: 20px;
+    margin: 0;
+    max-width: 100%;
+}
+
+#contact h3 {
+    padding-bottom: 20px;
+}
+
+#languages {
+    padding: 20px;
+    border-bottom: 1px solid #3D5361;
+    border-top: 1px solid #3D5361;
+}
+
+#languages h3 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #3D5361;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.5;
+    color: #3D5361;
+}
+
+    .fa-linkedin {
+    background:#D4C6BD;
+    color: white;
+  }
+
+  .fa-envelope {
+    background: #D4C6BD;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #D4C6BD;
+    color: white;
+  }
