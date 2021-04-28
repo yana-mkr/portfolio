@@ -3,15 +3,16 @@
 #D4C6BD
 #D6B7B5 */
 
-
+/* nav bar */
 nav {
     background-color: #3D5361;
 }
 
+/* header with my photo and introduction */
 header {
     padding: 20px;
     text-align: center;
-    background-color: #F5F0ED;
+    background-color:#F5F0ED;
     color:#3D5361;
 }
 
@@ -26,12 +27,28 @@ body {
     text-align: center;
 }
 
+/* languages that i speak section */
+#languages {
+    padding: 40px;
+    border-bottom: 1px solid #3D5361;
+}
+
+#languages h3 {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color: #3D5361;
+    font-size: 25px;
+}
+
+/* the projects section  */
 #worked-on {
     padding: 30px;
 }
 
 #worked-on h3 {
     color: #3D5361;
+    font-size: 25px;
+    padding: 30px;
 }
 
 #worked-on h4 {
@@ -45,11 +62,14 @@ body {
 
 .text-box {
     background:#3D5361;
-    color:#F5F0ED;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-top:20px;
     position: absolute;
+}
+
+.text-box:hover {
+    opacity: .5;
 }
 
 .text-box a {
@@ -66,35 +86,41 @@ body {
 .img-bg {
     background:#F5F0ED;
     border-radius: 20px; 
-    border: 3px solid #D6B7B5;
+    border: 3px solid #F5F0ED;
 }
 
 #worked-on img:hover {
     opacity: 100%;
 }
 
+.project a {
+    text-decoration: none;
+}
+
+h5:hover {
+    opacity: .5;
+    color:#3D5361;
+}
+
+h5 {
+    padding: 5px;
+    font-size: 15px;
+    color:#D6B7B5;
+}
+
+/* contact section and icons */
 #contact {
     background-color: #3D5361;
     color: #F5F0ED;
-    padding: 20px;
+    padding: 30px;
+    padding-bottom: 50px;
     margin: 0;
     max-width: 100%;
 }
 
 #contact h3 {
-    padding-bottom: 20px;
-}
-
-#languages {
-    padding: 20px;
-    border-bottom: 1px solid #3D5361;
-    border-top: 1px solid #3D5361;
-}
-
-#languages h3 {
-    padding-bottom: 20px;
-    padding-top: 10px;
-    color: #3D5361;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 
 .fa {
